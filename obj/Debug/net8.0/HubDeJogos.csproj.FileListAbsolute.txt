@@ -1,0 +1,14 @@
+C:\Codigos\C#\HubDeJogos\bin\Debug\net8.0\HubDeJogos.exe
+C:\Codigos\C#\HubDeJogos\bin\Debug\net8.0\HubDeJogos.deps.json
+C:\Codigos\C#\HubDeJogos\bin\Debug\net8.0\HubDeJogos.runtimeconfig.json
+C:\Codigos\C#\HubDeJogos\bin\Debug\net8.0\HubDeJogos.dll
+C:\Codigos\C#\HubDeJogos\bin\Debug\net8.0\HubDeJogos.pdb
+C:\Codigos\C#\HubDeJogos\obj\Debug\net8.0\HubDeJogos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Codigos\C#\HubDeJogos\obj\Debug\net8.0\HubDeJogos.AssemblyInfoInputs.cache
+C:\Codigos\C#\HubDeJogos\obj\Debug\net8.0\HubDeJogos.AssemblyInfo.cs
+C:\Codigos\C#\HubDeJogos\obj\Debug\net8.0\HubDeJogos.csproj.CoreCompileInputs.cache
+C:\Codigos\C#\HubDeJogos\obj\Debug\net8.0\HubDeJogos.dll
+C:\Codigos\C#\HubDeJogos\obj\Debug\net8.0\refint\HubDeJogos.dll
+C:\Codigos\C#\HubDeJogos\obj\Debug\net8.0\HubDeJogos.pdb
+C:\Codigos\C#\HubDeJogos\obj\Debug\net8.0\HubDeJogos.genruntimeconfig.cache
+C:\Codigos\C#\HubDeJogos\obj\Debug\net8.0\ref\HubDeJogos.dll
