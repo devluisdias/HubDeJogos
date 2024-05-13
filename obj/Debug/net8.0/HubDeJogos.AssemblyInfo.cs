@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HubDeJogos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f357c5593d9827dbe03411d0a3aecacb278b9a27")]
 [assembly: System.Reflection.AssemblyProductAttribute("HubDeJogos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HubDeJogos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

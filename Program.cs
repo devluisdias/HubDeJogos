@@ -1,21 +1,26 @@
 ﻿using HubDeJogos.Models;
 
-JogoDaAdivinhacao jogoDaAdivinhacao = new JogoDaAdivinhacao();
-Jokenpo jokenpo = new Jokenpo();
-
-Console.WriteLine( "\n=============== MENU ===============");
-Console.WriteLine("[1] Jogo da Adivinhação");
-Console.WriteLine("[2] Pedra, Papel e Tesoura");
-Console.WriteLine("[3] Jogo da Velha");
-Console.Write("\nDigite a opção escolhida: ");
-string? opcaoMenuPrincipal = Console.ReadLine();
-
-switch (opcaoMenuPrincipal)
+while (true)
 {
-  case "1":
-    jogoDaAdivinhacao.Menu();
-    return;
-  case "2":
-    jokenpo.Menu();
-    return;
+Console.WriteLine( "\n=============== MENU ===============");
+Console.WriteLine("[I] Iniciar");
+Console.WriteLine("[S] Sair");
+Console.Write("\nDigite a opção escolhida: ");
+string opcaoMenuPrincipal = Console.ReadLine();
+
+  switch (opcaoMenuPrincipal.ToUpper())
+  {
+    case "I":
+      MenuPrincipal menuInicial = new MenuPrincipal();
+      menuInicial.Menu();
+      break;
+    case "S":
+      Console.WriteLine("Aplicação Finalizada!");
+      return;
+    default:
+      Console.WriteLine("Digite um valor válido!");
+      Console.WriteLine("Pressione qualquer tecla para continuar:");
+      Console.ReadKey();
+      break;
+  }
 }

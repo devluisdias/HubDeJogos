@@ -12,3 +12,4 @@ C:\Codigos\C#\HubDeJogos\obj\Debug\net8.0\refint\HubDeJogos.dll
 C:\Codigos\C#\HubDeJogos\obj\Debug\net8.0\HubDeJogos.pdb
 C:\Codigos\C#\HubDeJogos\obj\Debug\net8.0\HubDeJogos.genruntimeconfig.cache
 C:\Codigos\C#\HubDeJogos\obj\Debug\net8.0\ref\HubDeJogos.dll
+c:\Codigos\C#\HubDeJogos\obj\Debug\net8.0\HubDeJogos.sourcelink.json

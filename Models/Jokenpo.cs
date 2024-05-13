@@ -18,7 +18,7 @@ namespace HubDeJogos.Models
             Console.WriteLine("[D] Digite 'D' caso queira entender como o jogo funciona");
             Console.WriteLine("[Q] Digite 'Q' caso queira voltar ao menu anterior");
             Console.Write("\nDigite a opção escolhida: ");
-            string? opcao = Console.ReadLine(); // Realiza a leitura da opção que será digitada pelo jogador
+            string opcao = Console.ReadLine(); // Realiza a leitura da opção que será digitada pelo jogador
 
             while (true)
             {
@@ -36,7 +36,8 @@ namespace HubDeJogos.Models
                         return;
                     case "Q" or "q": // Função que permite retornar para o menu anterior que permite selecionar os jogos do HUB.
                         Console.WriteLine("Você escolheu retornar ao menu anterior.");
-                        return;   
+                        new MenuPrincipal().Menu();   
+                        return;
                 }
             }      
         }
@@ -58,7 +59,7 @@ namespace HubDeJogos.Models
                 int indiceCPU = rnd.Next(0, 2); // Escolha randômica do valor.
                 string escolhaCPU = dados[indiceCPU]; // Consulta na Lista
                 Console.Write("\nEscolha entre Pedra, Papel e Tesoura: ");
-                string? escolha = Console.ReadLine();
+                string escolha = Console.ReadLine();
 
                 if (indiceCPU == 0) // Função caso a CPU tenha escolhido PEDRA
                 {
